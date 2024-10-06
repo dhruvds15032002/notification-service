@@ -41,6 +41,7 @@ group :development do
   gem 'sidekiq'         # For background processing
   gem 'twilio-ruby'     # For SMS notifications
   gem 'fcm' # For push notifications
+  gem 'redis'               # Redis for managing Sidekiq jobs
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
